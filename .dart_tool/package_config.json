@@ -92,6 +92,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "neubrutalism_ui",
+      "rootUri": "file:///Users/Gokul/.pub-cache/hosted/pub.dev/neubrutalism_ui-2.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
       "name": "path",
       "rootUri": "file:///Users/Gokul/.pub-cache/hosted/pub.dev/path-1.8.3",
       "packageUri": "lib/",
@@ -158,7 +164,7 @@
       "languageVersion": "3.2"
     }
   ],
-  "generated": "2023-12-07T21:41:41.140610Z",
+  "generated": "2023-12-08T20:59:42.000464Z",
   "generator": "pub",
   "generatorVersion": "3.2.0"
 }
