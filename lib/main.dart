@@ -15,25 +15,27 @@ class MyApp extends StatelessWidget {
       title: 'Initial Commit',
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: const Color(0xff111118),
+        backgroundColor: const Color(0xffFFF8E7),
         body: Center(
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              NeuContainer(
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: NeuContainer(
+              color: Colors.white,
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
                 child: AnimatedTextKit(
                   isRepeatingAnimation: false,
                   animatedTexts: [
-                    TypewriterAnimatedText('Initial Commit',
-                        speed: const Duration(milliseconds: 200),
+                    TyperAnimatedText('git commit -m "Initial commit"',
+                        speed: const Duration(milliseconds: 100),
                         textStyle: const TextStyle(
-                            fontSize: 100,
-                            color: Colors.white,
+                            fontSize: 50,
+                            color: Colors.black,
                             fontFamily: "Source Code Pro")),
                   ],
                 ),
               ),
-            ],
+            ),
           ),
         ),
       ),
